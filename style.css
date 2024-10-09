@@ -18,17 +18,15 @@ body {
     flex: auto;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-left: 100px;
     max-width: 40vw;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 300px;
+    padding-bottom: 500px;
 }
 
-.form-container {
-    flex: auto;
-    flex-wrap: wrap;
-    flex-direction: row;
+#form-container {
+    display: flex;
 
 }
 .background {
@@ -38,8 +36,26 @@ body {
     width: 40%;
 }
 
-input,label {
+#form-option {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
 }
+
+button {
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    background-color: lightgreen;
+    border: 0px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+label {
+    font-size: large;
+    font-weight: bold;
+}
+
+
